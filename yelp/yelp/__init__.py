@@ -17,7 +17,7 @@ logger.addHandler(handler)
 
 DB_HOST = 'localhost'
 DB_USERNAME = 'root'
-DB_PASSWORD = 'Instrumments'
+DB_PASSWORD = 'root'
 DB_DBNAME = 'Food_Crawler'
 
 str_connect = 'mysql+mysqlconnector://%s:%s@%s:3306/%s?charset=utf8mb4' % (DB_USERNAME, DB_PASSWORD, DB_HOST, DB_DBNAME)
